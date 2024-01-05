@@ -54,13 +54,18 @@ namespace ShopOrSomething
 
         private void Itemlist_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Login Success!");
+            
             Form3 mainForm = new Form3();
             mainForm.Show();
             this.Hide();
         }
 
         private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
